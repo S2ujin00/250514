@@ -20,7 +20,7 @@ buttonEls.forEach((el) => {
 buttonEls[1].dataset.cont = 7;
 
 function button3_click() {
-    if (pE1.style.backgroundColor = "gold")
+    if (pE1.style.backgroundColor === "gold")
         pE1.style.backgroundColor ="red"
     else
     pE1.style.backgroundColor ="gold"
@@ -30,5 +30,5 @@ function button4_click() {
     if (pE1.style.fontSize === "30px")
         pE1.style.fontSize ="10px"
     else
-    pE1.style.backgroundColor ="30px"
+    pE1.style.fontSize ="30px"
 }
